@@ -5,8 +5,18 @@ h1,h2,h3,h4,h5 {
 	font-style: normal;
 	font-weight: 300;
 }
-p {
+p,li {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 100;
+}
+.menu-container {
+	border-bottom: 3px solid #941307;
+}
+#logo {
+	width:180px;	
+	padding-top:.4em;
+}
+.mainmenu {
+	padding-top:.8em;
 }

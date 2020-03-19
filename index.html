@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Showcolate</title>
     <!-- Bootstrap -->
-	<link href="../../ClassExample/css/bootstrap-4.4.1.css" rel="stylesheet">  
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">  
 	<!-- Adobe Fonts -->
 	<link rel="stylesheet" href="https://use.typekit.net/xul5gnp.css">
 	<!-- Favicons -->  
@@ -19,13 +19,43 @@
 	  
   </head>
   <body>
-  	<!-- body code goes here -->
-	<h1>Hello, World.</h1>
+  	<section class="container-fluid">
+		<div class="menu-container row">
+			<div class="col-sm-12 col-md-2">
+				<img id="logo" src="assets/img/logo.png" /> 
+			</div>
+  			<div class="col-sm-12 col-md-10">
+				<ul class="mainmenu nav nav-pills">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Products</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Become a Franchise</a>
+					  <div class="dropdown-menu">
+						 <a class="dropdown-item" href="#">Login</a>
+					  </div>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Locations</a>
+					</li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+					  <div class="dropdown-menu">
+						 <a class="dropdown-item" href="#">FAQ</a>
+					  </div>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+  	</section>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-	<script src="../../ClassExample/js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery-3.4.1.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="../../ClassExample/js/popper.min.js"></script> 
-	<script src="../../ClassExample/js/bootstrap-4.4.1.js"></script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
   </body>
 </html>
