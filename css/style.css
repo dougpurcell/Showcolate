@@ -20,3 +20,51 @@ p,li {
 .mainmenu {
 	padding-top:.8em;
 }
+.hero-image {
+	background: -webkit-linear-gradient(rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.2)),url("../assets/img/heroimage.jpg");
+  	height: 450px;
+	background-color:#121212;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.hero-title {
+	display: flex;
+    color: #ffffff;
+    padding-top: 6%;
+    justify-content: center;
+    text-align: center;
+}
+.hero-subtitle {
+	padding:1rem 0;
+	display: flex;
+	max-width:400px;
+	margin:0 auto;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+}
+.hero-button-container {
+	width:250px;
+	margin: 2% auto;
+}
+.hero-button {
+	text-align:center;
+	padding:15px;
+	border: 3px solid #FDF3B4;
+	text-decoration:none;
+	color: #FDF3B4;
+	font-weight:700;
+}
+.cta-button-container {
+	width: 100px;
+	margin:0 auto;
+}
+.cta-button {
+	text-align: center;
+    padding: 6px 9px;
+    border: 2px solid #FDF3B4;
+    text-decoration: none;
+    color: #FDF3B4;
+    font-weight: 400;
+}
