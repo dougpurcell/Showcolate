@@ -159,9 +159,14 @@ p,li {
 .footer-rev a {
  	color: #941307;
 }
+/************************ 
+            FAQ 
+*************************/
 .btn {
 	background-color: transparent;
 	border-color: transparent;
+	font-size:1.1rem;
+	font-weight:700;
 }
 .btn:active,.btn:hover,.btn:focus {
 	background-color: transparent;
@@ -170,4 +175,57 @@ p,li {
 .card {
 	background-color: transparent;
 	border-color: transparent;
+}
+/************************ 
+         Forms
+*************************/
+.col-form-label {
+	color:#ffffff;	
+}
+.submit-button {
+	background-color:transparent;
+	color:#FDF3B4;
+	border:2px solid #FDF3B4;	
+}
+/************************ 
+         Products
+*************************/
+.title{
+	color:#ffffff;
+}
+.products {
+	margin:30px 0px;
+	width:100%;
+}
+.product-card {
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin:15px auto;
+}
+.product-card img {
+	width:100%;
+    display: flex;
+    margin: auto;
+    align-self: center;
+}
+.product-content {
+	background-color:rgba(0,0,0,0.4);
+    height: 340px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product-card h3 {
+	position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 80%;
+}
+.product-card p {
+	position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 80%;
 }
