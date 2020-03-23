@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/************************ 
+Generics and Globals 
+*************************/
 h1,h2,h3,h4,h5 {
 	font-family: upgrade, sans-serif;
 	font-style: normal;
@@ -20,6 +24,41 @@ p,li {
 .mainmenu {
 	padding-top:.8em;
 }
+.menu-container li,a {
+	color: #E03222;
+}
+.menu-container a:hover {
+	color:#E03222;
+	text-decoration:none;
+	font-weight:700;
+}
+.nav-pills .show > .nav-link {
+	background-color:#e03222;
+	color:#ffffff;
+}
+.dropdown-menu a {
+	color: #E03222;
+}
+.footer {
+	background-color:#941307;
+	padding: 25px 0 15px;
+	width:100%;
+}
+.footer p {
+	text-align: center;
+	color: #ffffff;
+}
+.footer a {
+	color:#fff;
+	text-decoration:none;
+}
+.footer a:hover {
+	font-weight:700;
+	text-decoration:none;
+}
+/************************ 
+        Home Page 
+*************************/
 .hero-image {
 	background: -webkit-linear-gradient(rgba(12, 12, 12, 0.5), rgba(12, 12, 12, 0.2)),url("../assets/img/heroimage.jpg");
   	height: 450px;
@@ -45,26 +84,90 @@ p,li {
     text-align: center;
 }
 .hero-button-container {
-	width:250px;
+	width:200px;
 	margin: 2% auto;
 }
-.hero-button {
+.hero-button { 
 	text-align:center;
 	padding:15px;
-	border: 3px solid #FDF3B4;
+	border: 3px solid #e03222;
 	text-decoration:none;
-	color: #FDF3B4;
+	color: #e03222;
 	font-weight:700;
 }
-.cta-button-container {
-	width: 100px;
-	margin:0 auto;
+.hero-button-container a:hover{
+	text-decoration:none;
+	color:#ffffff;
+	background-color:#e03222;
 }
-.cta-button {
-	text-align: center;
-    padding: 6px 9px;
-    border: 2px solid #FDF3B4;
+.cta-section {
+	margin:30px 0;
+	max-width:100%;
+}
+.cta {
+	padding: 12px 0;
+    border: 2px solid #941307;
+    margin: 0 5px;
+	background-color:rgba(28,28,28,0.10);
+}
+.cta:hover {
+	box-shadow: 4px 8px 20px 0px rgba(0,0,0,.4);
+}
+
+.cta img {
+	max-width: 340px;
+	width:80%;
+    display: flex;
+    margin: auto;
+    align-self: center;
+}
+.cta p {
+	font-weight: 700;
     text-decoration: none;
-    color: #FDF3B4;
-    font-weight: 400;
+    color: #363636;
+    margin: 0 auto;
+    padding: 10px 48px;
+}
+.cta-section a:hover {
+	text-decoration: none !important;
+}
+/************************ 
+        Inner Pages 
+*************************/
+.inner {
+	padding:20px 0px;
+	background: rgb(148,19,7);
+	background: radial-gradient(circle, rgba(148,19,7,1) 0%, rgba(187,23,8,1) 100%);
+}
+.body {
+	max-width: 1250px;
+	margin-left:2%;
+}
+.content h1,h2,h3,p,li {
+	color:#ffffff;
+}
+.title {
+	padding-bottom:14px;
+}
+.footer-rev {
+	background-color:#ffffff;
+	padding: 20px 0 10px;
+}
+.footer-rev p {
+ 	color: #941307;
+}
+.footer-rev a {
+ 	color: #941307;
+}
+.btn {
+	background-color: transparent;
+	border-color: transparent;
+}
+.btn:active,.btn:hover,.btn:focus {
+	background-color: transparent;
+	border-color: transparent;
+}
+.card {
+	background-color: transparent;
+	border-color: transparent;
 }
